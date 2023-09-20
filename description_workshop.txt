@@ -1,0 +1,6 @@
+[b]Keep most of the vanilla buffs active after death![/b]
+
+You can configure which buffs you want to persist or which ones you don't.
+List of buff IDs and internal names: https://terraria.wiki.gg/wiki/Buff_IDs
+
+Feel free to contribute! https://github.com/Zennos/PersistBuffs

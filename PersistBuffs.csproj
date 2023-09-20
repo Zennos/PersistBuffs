@@ -8,6 +8,7 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="description_workshop.txt" />
     <None Remove="Localization\pt-BR_Mods.PersistBuffs.hjson" />
   </ItemGroup>
   <ItemGroup>
