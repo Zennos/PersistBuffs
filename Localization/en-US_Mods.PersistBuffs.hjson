@@ -1,0 +1,37 @@
+Configs: {
+	OnlyOwner: Only server owner can change this config.
+
+	PersistBuffsServerConfig: {
+		DisplayName: Config
+
+		ModEnabled: {
+			Label: Mod Enabled
+			Tooltip: ""
+		}
+
+		ExcludedBuffs: {
+			Label: Excluded Buffs
+			Tooltip:
+				'''
+				Include the ID or internal name of the buffs that you don't want to persist after death.
+				Ex: MagicPower, 16, etc.
+				'''
+		}
+
+		OnlyBuffs: {
+			Label: Persist only on the following buffs
+			Tooltip:
+				'''
+				[c/FFFF00:The mod will only persist the buffs in this list.]
+				Values of the list must be the buff ID or the buff internal name.
+				Ex: ObsidianSkin, 26, etc.
+
+				You can add debuffs if you want.
+
+				[c/FF0000:Pet/mount buffs are not recommended to include here.]
+
+				The option [c/00FFFF:{$ExcludedBuffs.Label}] will not have effect when using this list.
+				'''
+		}
+	}
+}

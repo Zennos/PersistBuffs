@@ -1,0 +1,37 @@
+Configs: {
+	OnlyOwner: Apenas o dono do servidor pode alterar as configurações.
+
+	PersistBuffsServerConfig: {
+		DisplayName: Configurações
+
+		ModEnabled: {
+			Label: Mod Ativado
+			Tooltip: ""
+		}
+
+		ExcludedBuffs: {
+			Label: Ignorar buffs
+			Tooltip:
+				'''
+				Adicione o ID ou nome interno dos buffs que você deseja que não seja afetado.
+				Ex: MagicPower, 16, etc.
+				'''
+		}
+
+		OnlyBuffs: {
+			Label: Manter apenas os seguintes buffs
+			Tooltip:
+				'''
+				[c/FFFF00:Manter apenas os buffs dessa lista após a morte.]
+				Adicione na lista o ID ou nome interno dos buffs nessa lista.
+				Ex: ObsidianSkin, 26, etc.
+
+				Você pode adicionar debuffs se quiser.
+
+				[c/FF0000:Buffs de Pet/Montaria não são recomendado.]
+
+				A opção [c/00FFFF:{$ExcludedBuffs.Label}] não terá efeito.
+				'''
+		}
+	}
+}

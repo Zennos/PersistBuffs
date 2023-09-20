@@ -1,0 +1,3 @@
+displayName = Persist Vanilla Buffs After Death
+author = Edoan
+version = 1.0.0

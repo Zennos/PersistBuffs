@@ -1,0 +1,3 @@
+Keep most of the vanilla buffs active after death.
+
+You can exclude or exclusively include the buffs you want to persist using the mod's configuration.
