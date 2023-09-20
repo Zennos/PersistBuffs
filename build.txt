@@ -1,3 +1,4 @@
 displayName = Persist Vanilla Buffs After Death
 author = Edoan
 version = 1.0.0
+homepage = https://github.com/Zennos/PersistBuffs
